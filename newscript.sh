@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 read -p "Enter the filename : " file
-if [ -d $file ]
+if [ -f $file ]
 then
 	echo "File exists"
 else
